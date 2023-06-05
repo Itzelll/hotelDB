@@ -12,3 +12,6 @@ CREATE TABLE habitaciones (
 
 ALTER TABLE dispositivos ADD COLUMN n_habitacion INT;
 ALTER TABLE dispositivos ADD FOREIGN KEY (n_habitacion) REFERENCES habitaciones(n_habitacion);
+
+
+
